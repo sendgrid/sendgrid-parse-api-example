@@ -15,8 +15,19 @@ $ node app.js
 ```
 $ heroku create
 $ git push heroku master
+```
+
+Then you should be able to run the following and get a success 200 response back.
+
+```
 $ curl -X POST http://yoursubdomain.herokuapp.com/inbound
 ```
 
-After you are done with that - go hook up your SendGrid parse webhook settings to hit the above url. 
+Next, setup your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply) like the following but with a domain of your own. 
+
+![]()
+
+
+
+
 
