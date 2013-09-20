@@ -13,7 +13,7 @@ var inbound = {
     var email     = new Email({
       to:       to,
       from:     "hi@sendgrid-parse-api-example.com",
-      subject:  "[Ingrid] Inbound Payload",
+      subject:  "[sendgrid-parse-api-example] Inbound Payload",
       text:     "A payload was just delivered via SendGrid's Inbound Parse API. It should be attached."
     });
 
