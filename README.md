@@ -2,7 +2,7 @@
 
 Example application using the SendGrid Parse API. 
 
-This small application demonstrates how to start using SendGrid's Parse API. Additionally, it acts as a boilerplate of code that you can begin with and adjust to your own needs. It comes with complete instructions for getting the SendGrid Parse API working.
+This application demonstrates how to use SendGrid's Parse API. Additionally, it acts as a boilerplate of code that you can adjust to your own needs. It comes with complete instructions for getting the SendGrid Parse API working.
 
 ## Getting Started
 
