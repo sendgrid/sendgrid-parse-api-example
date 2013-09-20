@@ -1,12 +1,12 @@
 {
-  "name": "ingrid",
+  "name": "sendgrid-parse-api-example",
   "version": "0.0.1",
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
   "main": "app.js",
-  "description": "Catch a SendGrid inbound email.",
+  "description": "Example application using the SendGrid Parse API.",
   "dependencies": {
     "dotenv": "0.0.3",
     "hapi": "1.6.2",
