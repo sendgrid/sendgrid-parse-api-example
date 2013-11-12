@@ -13,15 +13,16 @@ You will need [an account on SendGrid](https://sendgrid.com/user/signup).
 #### 1. Set ENV vars 
 
 ```
-$ touch .env
+$ mv .env.example .env
 ```
 
-Paste the following.
+Change the contents of .env to your username and password.
 
 ```
 SENDGRID_USERNAME=your_sendgrid_username
 SENDGRID_PASSWORD=your_sendgrid_password
 ```
+
 #### 2. Run App
 
 ```
