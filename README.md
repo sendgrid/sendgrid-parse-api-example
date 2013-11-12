@@ -25,6 +25,7 @@ SENDGRID_PASSWORD=your_sendgrid_password
 #### 2. Run App
 
 ```
+$ npm install
 $ node app.js
 ```
 
