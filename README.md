@@ -39,7 +39,7 @@ click-to-cloud --repo https://github.com/scottmotte/sendgrid-parse-api-example.g
 Then you should be able to run the following - receiving a success 200 response.
 
 ```
-$ curl -X POST http://your-heroku-subdomain.herokuapp.com/inbound
+$ curl -I -X POST http://your-heroku-subdomain.herokuapp.com/inbound
 ```
 
 #### 3. Set SendGrid Parse Settings
