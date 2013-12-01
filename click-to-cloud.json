@@ -1,0 +1,7 @@
+{
+  "heroku": [
+    "heroku create",
+    "heroku addons:add sendgrid",
+    "git push heroku master"
+  ]
+}
