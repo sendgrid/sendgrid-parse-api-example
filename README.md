@@ -12,27 +12,9 @@ You will need [an account on SendGrid](https://sendgrid.com/user/signup).
 
 #### 1. Deploy to Heroku
 
-##### Option B: Command line approach
+Click this button to deploy to Heroku.
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku config:set SENDGRID_USERNAME=your_sendgrid_username
-$ heroku config:set SENDGRID_PASSWORD=your_sendgrid_password
-```
-
-##### Option A: Click-to-cloud approach (beta)
-
-You can optionally install using `click-to-cloud`. Click to cloud is a binary I'm building to make it easier to deploy
-small applications to cloud Paas like Heroku. I personally, use this approach, but your mileage may vary. 
-
-First, [install click-to-cloud](https://github.com/scottmotte/click-to-cloud#installation) on your machine.
-
-Second, run the following command.
-
-```bash
-click-to-cloud --repo https://github.com/scottmotte/sendgrid-parse-api-example.git
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 #### 2. Check for 200 OK
 
