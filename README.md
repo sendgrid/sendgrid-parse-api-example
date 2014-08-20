@@ -1,5 +1,7 @@
 # sendgrid-parse-api-example
 
+![](https://raw.githubusercontent.com/sendgrid/sendgrid-parse-api-example/master/sendgrid-parse-api-example.png)
+
 Example application using the SendGrid Parse API. 
 
 This application demonstrates how to use SendGrid's Parse API. Additionally, it acts as a boilerplate of code that you can adjust to your own needs. It comes with complete instructions for getting the SendGrid Parse API working.
@@ -28,13 +30,13 @@ $ curl -I -X POST http://your-heroku-subdomain.herokuapp.com/inbound
 
 Next, setup your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply) like the following but with a hostname of your own and the url you deployed this app to. (You'll notice I actually made my hostname a subdomain `m.carve.io`. You can do the same or the more standard root of your domain.) 
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound1.png)
+![](https://raw.github.com/sendgrid/sendgrid-parse-api-example/master/readme/inbound1.png)
 
 #### 4. Configure Your MX Records
 
 Now you have to configure an MX record on the hostname you set above. It should look something like the following.
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound2.png)
+![](https://raw.github.com/sendgrid/sendgrid-parse-api-example/master/readme/inbound2.png)
 
 Now wait a couple hours to 48 hours. (It can take up to 48 hours for MX records to propagate around the world.)
 
@@ -46,7 +48,7 @@ It will deliver an email back to you with an attachment containing the content o
 
 #### 6. Adjust the code
 
-You can now adjust the code in [routes/inbound.js](https://github.com/scottmotte/sendgrid-parse-api-example/blob/master/routes/inbound.js) to do whatever logic you require.
+You can now adjust the code in [routes/inbound.js](https://github.com/sendgrid/sendgrid-parse-api-example/blob/master/routes/inbound.js) to do whatever logic you require.
 
 ### Development
 
@@ -86,13 +88,13 @@ Note the url the `ngrok` command gives you.
 
 Next, setup your [SendGrid Parsing Incoming Emails setting](http://sendgrid.com/developer/reply) like the following but with a hostname of your own and the url granted to you from the `ngrok` command above plus the /inbound path.  
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound3.png)
+![](https://raw.github.com/sendgrid/sendgrid-parse-api-example/master/readme/inbound3.png)
 
 #### 5. Configure Your MX Records
 
 Now you have to configure an MX record on the hostname you set above. It should look something like the following.
 
-![](https://raw.github.com/scottmotte/sendgrid-parse-api-example/master/readme/inbound2.png)
+![](https://raw.github.com/sendgrid/sendgrid-parse-api-example/master/readme/inbound2.png)
 
 Wait 1-48 hours. (It can take up to 48 hours for MX records to propagate around the world.)
 
