@@ -8,9 +8,9 @@
     "email",
     "parse"
   ],
-  "website": "https://github.com/scottmotte/sendgrid-parse-api-example",
-  "repository": "https://github.com/scottmotte/sendgrid-parse-api-example",
-  "logo": "https://raw.githubusercontent.com/scottmotte/sendgrid-parse-api-example/master/sendgrid-parse-api-example.png",
+  "website": "https://github.com/sendgrid/sendgrid-parse-api-example",
+  "repository": "https://github.com/sendgrid/sendgrid-parse-api-example",
+  "logo": "https://raw.githubusercontent.com/sendgrid/sendgrid-parse-api-example/master/sendgrid-parse-api-example.png",
   "env": {
     "SENDGRID_USERNAME": {
       "description": "Your SendGrid username.",
